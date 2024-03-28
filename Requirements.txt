@@ -1,0 +1,5 @@
+pycryptodome
+pyHook
+pywin32
+psutil
+requests
