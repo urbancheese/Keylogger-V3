@@ -12,6 +12,8 @@ Features:
 - Anti-Forensic Techniques: Attempts to evade detection and removal by anti-virus and forensic tools.
 - Rootkit Functionality: Implements hooks into the Windows kernel to hide malicious activity.
 - Anti-Sandbox: The `is_sandboxed()` function is designed to detect whether the script is running in a sandboxed or virtualized environment. It performs a series of checks on system properties, environment variables, and file paths commonly associated with sandbox environments.
+- Start-up: To seamlessly integrate this program into system startup, enabling it to initiate alongside the system boot process.
+- Exclusions: This program automatically adds itself to windows defender exclusions afetr running. This prevents the malware from being detected.
 
 Security Considerations:
 - Ensure that you have explicit permission from the target before running this script on any system.
